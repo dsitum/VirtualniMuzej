@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Unesite korisnicko ime i lozinku"
+AuthUserFile /var/www/WebDiP/2012_projekti/WebDiP2012_073/prilozi/.htpasswd
+Require valid-user

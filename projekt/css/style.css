@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "Enriqueta";
+    src: url("Enriqueta-Regular.ttf");
+}
+
+@font-face {
+    font-family: "EnriquetaB";
+    src: url("Enriqueta-Bold.ttf");
+}
+
+body {
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-position: bottom right;
+}
+
+.standard {
+    font-family: "Enriqueta", serif;
+    color: white;
+    position: relative;
+}
+
+#sadržaj {
+    position: relative;
+    margin-left: 210px;
+}
+
+
+#zaglavljebg {
+    margin-top: 2%;
+    height: 150px;
+    position: relative;
+}
+
+#zaglavlje {
+    background-color: #202020;
+    height: inherit;
+    margin: 0px 12%;
+}
+
+#mojaslika {
+    max-height: 100%;
+    float:left;
+}
+
+#ulogavlasnika {
+    color: white;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 75px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#nazivvlasnika {
+    color: #a40606;
+    font-size: 2em;
+    font-family: "EnriquetaB";
+}
+
+a {
+    color: #AB976A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D9C086;
+}
+
+.izbornik {
+    float: left;
+    margin-top: 30px;
+    margin-right: 5px;
+    background-color: rgba(13,13,13,0.7);
+    border-radius: 15px;
+    border: black 1px solid;
+    width: 200px;
+}
+
+.izbornik ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    position: relative;
+    padding: 10px;
+    margin: 0px;
+}
+
+.izbornik ul li {
+    padding-bottom: 5px;
+}
+
+.izbornik ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode";
+}
+
+.izbornik ul li a:hover {
+    color: #D9C086;
+}
+
+.okvir {
+    background-color: rgba(13,13,13,0.7);
+    text-align: justify;
+    margin: 30px 0px 0px 0px;
+    padding: 20px;
+    position: relative;
+    border: red thin solid;
+}
+
+.naslov {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+dt.naslov+dd, p.tekst {
+    margin-bottom: 25px;
+    text-indent: 50px;
+    margin-left: 0px;
+}
+
+.lista {
+    list-style-type: square;
+    padding-left: 15px;
+}
+
+.centar {
+    text-align: center;
+}
+
+.desno {
+    text-align: right;
+}
+
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.kontejner {
+    position: relative;
+    margin: 0% 12%;
+}
+
+#logintekst {
+    float:left;
+    position: relative;
+    width: 40%;
+    min-width: 200px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.login {
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 12%;
+    margin-left: 60%;
+    padding-left: 10px;
+    text-align: right;
+    width: 300px;
+    float: right;
+}
+
+#register {
+    width:700px;
+    position: relative;
+    margin: 10px 20px;
+    float: left;
+}
+
+form td {
+    padding-bottom: 0.5em;
+}
+
+.naslov2 {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	border-bottom:1px dashed #ff0000;
+}
+
+.slikacentrirana {
+	text-align:center;
+}
+
+#podnozje {
+    text-align: center;
+}
+
+.oznacenoPolje {
+    border: red 1px solid;
+}
+
+.hover {
+    border: yellow 1px solid;
+}
+
+.kriviUnos {
+    background-color: rgba(255,0,0,0.7);
+}
+
+#noJavaScript {
+    color: red;
+}
+
+.ProsjecnaOcjena {
+    color: red;
+}
+
+#TablicaSKomentarima {
+    color: black;
+}
+
+.podaciOEksponatu {
+    width: 440px;
+    display:inline-block;
+}
+
+.slikaEksponata {
+    margin-left: 10px;
+    margin-top: 30px;
+    display:inline-block;
+    float: right;
+}
+
+#kosarica {
+    width: 150px;
+    float:left;
+    margin-top: 40px;
+    font-family: arial;
+    font-size: 0.9em;
+}
+
+#kosarica table {
+    border: solid black thin;
+    border-radius: 5px;
+}
+
+#kosarica thead, #kosarica tfoot {
+    background-color: rgba(13,13,13,0.9);
+}
+
+#kosarica tbody {
+    background-color: rgba(13,13,13,0.6);
+}
+
+footer {
+    clear: both;
+}
+
+/* Prošireni id register */
+#siriRegister {
+    width: 850px;
+    position: relative;
+    margin: 10px 20px;
+    float: left;
+}
